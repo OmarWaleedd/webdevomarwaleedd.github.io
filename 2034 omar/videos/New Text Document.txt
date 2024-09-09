@@ -1,0 +1,31 @@
+  <section class="hero">
+    <img src="images/hero-image.jpeg" alt="Future Me Hero Image">
+    <div class="hero-text">
+      <h1>Welcome to the Future Me</h1>
+      <p>Discover the journey to 2034.</p>
+    </div>
+  </section>
+
+
+
+  <section class="projects">
+    <h2>Featured Projects</h2>
+    <div class="grid">
+      <div class="grid-item">
+        <img src="images/project1.jpeg" alt="Project 1">
+        <h3>AI Assistant</h3>
+      </div>
+      <div class="grid-item">
+        <img src="images/project2.jpg" alt="Project 2">
+        <h3>Web Design with AR</h3>
+      </div>
+      <div class="grid-item">
+        <img src="images/project3.jpg" alt="Project 3">
+        <h3>EcoTech Initiative</h3>
+      </div>
+      <div class="grid-item">
+        <img src="images/project4.jpg" alt="Project 4">
+        <h3>EcoTech Initiative</h3>
+      </div>
+    </div>
+  </section>

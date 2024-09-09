@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Skills and Services - Omar 2034</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="skills.html">Skills/Services</a></li>
+        <li><a href="testimonials.html">Testimonials</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Skills Section -->
+  <section class="skills">
+    <h2>Skills & Expertise</h2>
+    <div class="skills-grid">
+      <!-- AI & Machine Learning Skill Card -->
+      <div class="skill-card" onclick="openModal('modalAI')">
+        <h3>AI & Machine Learning</h3>
+        <p>Click for more details.</p>
+        <div class="skill-progress">
+          <h3>Proficiency</h3>
+          <div class="progress-bar">
+            <div class="progress" style="width: 100%;"></div>
+          </div>
+        </div>
+      </div>
+      <!-- Modal for AI & Machine Learning -->
+      <div id="modalAI" class="modal">
+        <div class="modal-content">
+          <span class="close" onclick="closeModal('modalAI')">&times;</span>
+          <h3>AI & Machine Learning</h3>
+          <p>Detailed information about AI and machine learning expertise, projects, and technologies used.</p>
+          <ul>
+            <li><strong>Machine Learning Algorithms:</strong> Expert in supervised and unsupervised learning models like SVM, k-means, and neural networks.</li>
+            <li><strong>Deep Learning:</strong> Hands-on experience with TensorFlow and Keras for building and training advanced neural network architectures.</li>
+            <li><strong>Data Processing:</strong> Proficient in using Pandas and NumPy for data analysis and preprocessing.</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- AR/VR Integration Skill Card -->
+      <div class="skill-card" onclick="openModal('modalARVR')">
+        <h3>AR/VR Integration</h3>
+        <p>Click for more details.</p>
+        <div class="skill-progress">
+          <h3>Proficiency</h3>
+          <div class="progress-bar">
+            <div class="progress" style="width: 80%;"></div>
+          </div>
+        </div>
+      </div>
+      <!-- Modal for AR/VR Integration -->
+      <div id="modalARVR" class="modal">
+        <div class="modal-content">
+          <span class="close" onclick="closeModal('modalARVR')">&times;</span>
+          <h3>AR/VR Integration</h3>
+          <p>Insights into AR and VR development with a focus on immersive experiences.</p>
+          <ul>
+            <li><strong>Unity & Unreal Engine:</strong> Developed multiple AR/VR experiences using leading game engines.</li>
+            <li><strong>3D Modeling:</strong> Skilled in creating 3D assets for virtual environments using Blender and Maya.</li>
+            <li><strong>User Interaction:</strong> Experience in optimizing user interfaces for VR applications to enhance usability.</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Full-Stack Web Development Skill Card -->
+      <div class="skill-card" onclick="openModal('modalWebDev')">
+        <h3>Full-Stack Web Development</h3>
+        <p>Click for more details.</p>
+        <div class="skill-progress">
+          <h3>Proficiency</h3>
+          <div class="progress-bar">
+            <div class="progress" style="width: 95%;"></div>
+          </div>
+        </div>
+      </div>
+      <!-- Modal for Full-Stack Web Development -->
+      <div id="modalWebDev" class="modal">
+        <div class="modal-content">
+          <span class="close" onclick="closeModal('modalWebDev')">&times;</span>
+          <h3>Full-Stack Web Development</h3>
+          <p>Comprehensive capabilities in both front-end and back-end development.</p>
+          <ul>
+            <li><strong>Languages & Frameworks:</strong> Proficient in JavaScript, Python, React, and Node.js.</li>
+            <li><strong>Database Management:</strong> Experienced with SQL and NoSQL databases, including MySQL and MongoDB.</li>
+            <li><strong>API Development:</strong> Capable of designing and implementing RESTful services.</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Technical Writing Skill Card -->
+      <div class="skill-card" onclick="openModal('modalTechWriting')">
+        <h3>Technical Writing</h3>
+        <p>Click for more details.</p>
+        <div class="skill-progress">
+          <h3>Proficiency</h3>
+          <div class="progress-bar">
+            <div class="progress" style="width: 90%;"></div>
+          </div>
+        </div>
+      </div>
+      <!-- Modal for Technical Writing -->
+      <div id="modalTechWriting" class="modal">
+        <div class="modal-content">
+          <span class="close" onclick="closeModal('modalTechWriting')">&times;</span>
+          <h3>Technical Writing</h3>
+          <p>Expertise in creating clear and comprehensive documentation, manuals, and reports.</p>
+          <ul>
+            <li><strong>Documentation Standards:</strong> Adherence to international standards for technical documentation.</li>
+            <li><strong>Tool Proficiency:</strong> Skilled in using tools like MadCap Flare and Adobe FrameMaker.</li>
+            <li><strong>Content Management:</strong> Experienced in managing documentation lifecycle using CMS like Drupal and WordPress.</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+<!-- Footer Section -->
+<footer>
+  <p>&copy; Omar-2034. All rights reserved.</p>
+</footer>
+
+<script src="js/scripts.js"></script>
+</body>
+</html>
